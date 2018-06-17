@@ -2,7 +2,7 @@
   "name": "new_portfolio",
   "version": "1.0.0",
   "description": "Nuxt.js project",
-  "author": "shortnd <ococncol@gmail.com>",
+  "author": "shortnd",
   "private": true,
   "scripts": {
     "dev": "nuxt",
