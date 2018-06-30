@@ -1,12 +1,6 @@
 <template>
   <nav class="navbar">
-    <div class="navbar-brand">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-        Collin O.
-        </a>
-      </div>
-    </div>
+    <nuxt-link class="navbar-brand" to="/">Home</nuxt-link>
   </nav>
 </template>
 

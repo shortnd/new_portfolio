@@ -1,3 +1,5 @@
+const webpack = require('webpack')
+
 module.exports = {
   /*
   ** Headers of the page
@@ -11,7 +13,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css'}
+      // { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css'}
     ]
   },
   /*
@@ -22,6 +24,15 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['jquery', 'bootstrap'],
+    plugins: [
+      // set shortcuts as global for bootstrap
+      new webpack.ProvidePlugin({
+        $ : 'jquery',
+        jQuery : 'jquery',
+        'window.jQuery' : 'jquery'
+      })
+    ],
     /*
     ** Run ESLint on save
     */
@@ -35,5 +46,9 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  // include bootstrap css
+  css: ['bootstrap/dist/css/bootstrap.css'],
+  // include bootstrap js on startup
+  plugins: ['~plugins/bootstrap.js']
 }
