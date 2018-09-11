@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <nuxt-link class="navbar-brand" to="/">Home</nuxt-link>
+    <nuxt-link class="navbar-brand" to="/">Collin O.</nuxt-link>
   </nav>
 </template>
 
