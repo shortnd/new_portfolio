@@ -7,13 +7,13 @@
         <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="/about">About</a>
       </li>
       <li class="inline-block">
-        <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="#">Projects</a>
+        <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="/projects">Projects</a>
       </li>
       <li class="inline-block">
         <a href="/blog" class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold">Blog</a>
       </li>
       <li class="inline-block">
-        <a href="#" class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold">Contact</a>
+        <a href="/contact" class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold">Contact</a>
       </li>
     </ul>
   </nav>

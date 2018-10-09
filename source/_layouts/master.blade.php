@@ -25,7 +25,7 @@
         <div id="body" class="flex-1">
             @include('_partials.header')
             @include('_partials.hero')
-            <div class="container mx-auto">
+            <div class="container mx-auto @foreach($page->classes as $class) {{$class}}@endforeach">
                 @yield('body')
             </div>
         </div>
