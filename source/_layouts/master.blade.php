@@ -25,7 +25,9 @@
         <div id="body" class="flex-1">
             @include('_partials.header')
             @include('_partials.hero')
-            @yield('body')
+            <div class="container mx-auto">
+                @yield('body')
+            </div>
         </div>
         @include('_partials.footer')
     </body>

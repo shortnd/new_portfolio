@@ -1,5 +1,6 @@
 @extends('_layouts.master')
 
-@section('body')
-  @include($page->partial)
-@endsection
+@section('title', $page->title)
+
+<div class="container mx-auto">
+</div>

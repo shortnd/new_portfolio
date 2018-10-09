@@ -4,7 +4,7 @@
     <a class="text-right text-2xl text-white no-underline" href="/">coconnell.com</a>
     <ul class="float-right list-reset">
       <li class="inline-block">
-        <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="#">About</a>
+        <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="/about">About</a>
       </li>
       <li class="inline-block">
         <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="#">Projects</a>
