@@ -13,7 +13,7 @@
         <a class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold" href="#">Projects</a>
       </li>
       <li class="inline-block">
-        <a href="#" class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold">Blog</a>
+        <a href="/blog" class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold">Blog</a>
       </li>
       <li class="inline-block">
         <a href="#" class="block text-white no-underline px-2 uppercase hover:text-gold focus:text-gold">Contact</a>
