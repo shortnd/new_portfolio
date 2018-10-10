@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://coconnell.me',
     'production' => false,
     'collections' => [
         'about',

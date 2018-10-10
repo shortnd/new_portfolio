@@ -1,7 +1,8 @@
 ---
 extends: _layouts.inner
 title: About
+subtitle: Learn more about me!!
 section: body
-classes: ['lg:w-3/4', 'md:1/2']
+permalink: /about/index.html
 ---
 ## About

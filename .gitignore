@@ -1,3 +1,5 @@
 /build_local/
 /node_modules/
 /vendor/
+!/source/_projects
+!/source/_blog

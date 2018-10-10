@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>
-            @yield('title', 'Collin O\'Connell')
+            coconnell.me
         </title>
         <meta name="description" content="Collin O'Connell Full Stack Developer focusing on Laravel, Vue, Bootstrap, Tailwindcss, Accesibility and SEO.">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
