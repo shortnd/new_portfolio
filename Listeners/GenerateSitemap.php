@@ -11,7 +11,7 @@ class GenerateSitemap
         $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
 
         collect($jigsaw->getOutputPaths())->each(function ($path) use ($baseUrl, $sitemap) {
-            if (!$this->isAsset($path)) {
+            if (!$this->isAsset($path) && !$this->isAdmin($path)) {
                 $sitemap->addItem($baseUrl . $path, time(), Sitemap::DAILY);
             }
         });
@@ -22,5 +22,16 @@ class GenerateSitemap
     public function isAsset($path)
     {
         return starts_with($path, '/assets');
+    }
+
+    public function isAdmin($path) :bool
+    {
+        if ($path == 'https://coconnell.meadmin') {
+            return true;
+        } else if ($path == 'https://coconnell.me/admin/config.yml') {
+            return true;
+        } else {
+            return false;
+        }
     }
 }
