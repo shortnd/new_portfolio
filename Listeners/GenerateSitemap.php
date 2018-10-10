@@ -24,14 +24,8 @@ class GenerateSitemap
         return starts_with($path, '/assets');
     }
 
-    public function isAdmin($path) :bool
+    public function isAdmin($path)
     {
-        if ($path == 'https://coconnell.meadmin') {
-            return true;
-        } else if ($path == 'https://coconnell.me/admin/config.yml') {
-            return true;
-        } else {
-            return false;
-        }
+        return strpos($path, 'admin') !== false;
     }
 }
