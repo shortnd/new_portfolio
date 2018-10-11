@@ -18,5 +18,5 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "text"}
           - {label: "Section", name: "section", widget: "hidden", defaut: "body"}
-          - {label: "Body", name: "body", widget: "markdown", buttons: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image']}
+          - {label: "Body", name: "body", widget: "markdown", buttons: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image', 'text-align']}
     
