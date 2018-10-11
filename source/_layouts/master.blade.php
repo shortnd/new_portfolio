@@ -9,6 +9,7 @@
         </title>
         <meta name="description" content="Collin O'Connell Full Stack Developer focusing on Laravel, Vue, Bootstrap, Tailwindcss, Accesibility and SEO.">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <style>
             #skip {
                 left: -64rem;
@@ -30,5 +31,16 @@
             </div>
         </div>
         @include('_partials.footer')
+        <script>
+            if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });
+            }
+          </script>
     </body>
 </html>
