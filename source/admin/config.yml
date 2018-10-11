@@ -7,12 +7,15 @@ public_folder: "assets/images"
 
 collections:
   - label: "Pages"
-    name: "about"
-    file: "source/_about.md"
-    feilds:
-      - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "text"}
-      - {label: "Section", name: "section", widget: "hidden", defaut: "body"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        files: "source/_about.md"
+        feilds:
+          - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - {label: "Section", name: "section", widget: "hidden", defaut: "body"}
+          - {label: "Body", name: "body", widget: "markdown"}
     
