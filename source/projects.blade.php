@@ -9,18 +9,20 @@
 @endsection
 
 @section('body')
-  @forelse ($projects as $project)
+@if (count($projects) > 0)    
+  <h2>In Progress</h2>
+  @foreach ($projects as $project)
     @if ($project->progress == 'in-progress')
-    <h2>In Progress</h2>
     <div class="flex">
       <div class="shadow py-2 px-3 flex-1">
         {{$project->title}}
       </div>
     </div>
     @endif
-  @empty
-      <h2>I currently have no public projects that are done or I am working on</h2>
-  @endforelse
+  @endforeach
+  @endif
+  <h2>I currently have no public projects that are done or I am working on</h2>
+
   <br>
   <br>
   <h2>Private Projects</h2>
