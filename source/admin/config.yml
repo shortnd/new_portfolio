@@ -11,7 +11,7 @@ collections:
     files:
       - label: "About Page"
         name: "about"
-        file: "source/_about.md"
+        file: "source/about.md"
         fields:
           - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
           - {label: "Title", name: "title", widget: "string"}
