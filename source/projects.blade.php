@@ -10,7 +10,14 @@
 
 @section('body')
   @forelse ($projects as $project)
-      {{$project}}
+    @if ($project->progress == 'in-progress')
+    <h2>In Progress</h2>
+    <div class="flex">
+      <div class="shadow py-2 px-3 flex-1">
+        {{$project->title}}
+      </div>
+    </div>
+    @endif
   @empty
       <h2>I currently have no public projects that are done or I am working on</h2>
   @endforelse
