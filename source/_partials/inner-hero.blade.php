@@ -13,7 +13,7 @@
       <h2 class="text-2xl font-semibold text-grey-lightest">@yield('page-subtitle')</h2>
     @endif
     @if ($page->author && $page->date)
-        <p>Posted by {{$page->author}} on {{$page->date}}</p>
+        <p class="mt-2 font-semibold text-grey-light">Posted by {{$page->author}} on {{$page->date}}</p>
     @endif
   </section>
 </div>
