@@ -35,4 +35,18 @@ collections:
       - {label: "Author", name: "author", widget: "string", default: "Collin O'Connell"}
       - {label: "Post Body", name: "body", widget: "markdown", buttons: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image']}
 
+  - label: "Projects"
+    name: "projects"
+    folder: "source/_projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
+      - {label: "Section", name: "section", widget: "hidden", default: "body"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Small Description", name: "small-description", widget: "text"}
+      - {label: "Progress", name: "progress", widget: "select", options: ["in-progress", "upcoming", "finished"]}
+      - {label: "Body", name: "body", widget: "markdown", button: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image']}
+
     
