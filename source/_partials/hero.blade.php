@@ -1,4 +1,4 @@
-<section id="hero" class="bg-rouge h-100 relative py-32">
+<section id="hero" class="bg-rouge h-100 relative py-32" role="complementary">
   <div class="container mx-auto text-center align-middle">
     <h1 class="text-5xl font-bold text-white uppercase">Collin O'Connell</h1>
     <h2 class="text-2xl font-semibold text-grey-lightest uppercase">Full Stack Developer</h2>

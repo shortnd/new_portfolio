@@ -3,7 +3,7 @@ extends: _layouts.inner
 section: body
 title: Benjamin Pauls Pressure Washing
 subtitle: Small Pressure Washing Company Website
-small-description: >-
+small_description: >-
   Benjamin Pauls Pressure Washing company website allowing him to post new
   services and also new before and afters of jobs that he had done
 progress: in-progress

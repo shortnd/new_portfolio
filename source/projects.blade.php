@@ -9,19 +9,23 @@
 @endsection
 
 @section('body')
-@if (count($projects) > 0)    
   <h2>In Progress</h2>
-  @foreach ($projects as $project)
-    @if ($project->progress == 'in-progress')
-    <div class="flex">
-      <div class="shadow py-2 px-3 flex-1">
-        {{$project->title}}
-      </div>
+  @if (count($projects) > 0)
+    <div class="flex justify-between flex-wrap">
+      @foreach ($projects as $project)
+        @if ($project->progress == 'in-progress')
+        <a href="{{$project->getPath()}}" class="flex-1 no-underline shadow p-4 m-2">
+          <h3 class="font-thin text-grey-darkest">{{$project->title}}</h3>
+          <p class="text-grey-darker">
+            {{$project->small_description}}
+          </p>
+        </a>
+        @endif
+      @endforeach
     </div>
-    @endif
-  @endforeach
+  @else  
+    <h2>I currently have no public projects that are done or I am working on</h2>
   @endif
-  <h2>I currently have no public projects that are done or I am working on</h2>
 
   <br>
   <br>

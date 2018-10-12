@@ -1,5 +1,6 @@
 <a href="#main" id="skip" class="no-underline shadow-lg rounded text-gold bg-rouge fixed px-2 py-4" tabindex="0">SKIP TO CONTENT</a>
 <header class="bg-black text-white sticky">
+  <div class="bg-rouge h-1"></div>
   <nav class="container px-2 py-4 clearfix mx-auto">
     <a class="text-left text-2xl text-white no-underline sm:mb-4 sm:block md:inline-block hover:text-gold focus:text-gold" href="/">coconnell.com</a>
     <ul class="md:float-right list-reset sm:float-none">
