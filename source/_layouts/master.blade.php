@@ -10,17 +10,6 @@
         <meta name="description" content="Collin O'Connell Full Stack Developer focusing on Laravel, Vue, Bootstrap, Tailwindcss, Accesibility and SEO.">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-        <style>
-            #skip {
-                left: -64rem;
-                top: 4rem;
-                z-index: 10;
-                transition: all .3s ease;
-            }
-            #skip:focus {
-                left: 4rem;
-            }
-        </style>
     </head>
     <body class="flex flex-col h-full">
         <div id="body" class="flex-1">

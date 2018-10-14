@@ -5,16 +5,16 @@
     <a class="text-left text-2xl text-white no-underline sm:mb-4 sm:block md:inline-block hover:text-gold focus:text-gold" href="/">coconnell.com</a>
     <ul class="md:float-right list-reset sm:float-none">
       <li class="sm:block md:inline-block">
-        <a class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2" href="/about">About</a>
+        <a class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 sm:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold" href="/about">About</a>
       </li>
       <li class="sm:block md:inline-block">
-        <a class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2" href="/projects">Projects</a>
+        <a class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 m:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold" href="/projects">Projects</a>
       </li>
       <li class="sm:block md:inline-block">
-        <a href="/blog" class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2">Blog</a>
+        <a href="/blog" class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 m:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold">Blog</a>
       </li>
       <li class="sm:block md:inline-block">
-        <a href="/contact" class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2">Contact</a>
+        <a href="/contact" class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 m:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold">Contact</a>
       </li>
     </ul>
   </nav>
