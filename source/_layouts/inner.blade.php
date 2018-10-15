@@ -14,18 +14,6 @@
     </title>
     <meta name="description" content="@yield('page-description', '')">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-    <style>
-        #skip {
-            left: -64rem;
-            top: 4rem;
-            z-index: 10;
-            transition: all .3s ease;
-        }
-
-        #skip:focus {
-            left: 4rem;
-        }
-    </style>
 </head>
 
 <body class="flex flex-col h-full">
@@ -34,7 +22,7 @@
         @include('_partials.inner-hero')
         <br>
         <br>
-        <main id="main" class="container mx-auto w-1/2">
+        <main id="main" class="container mx-auto md:w-1/2 px-4">
             @yield('body')
         </main>
     </div>
