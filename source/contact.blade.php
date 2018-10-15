@@ -7,6 +7,7 @@
 
 @section('body')
     <h2 class="text-rouge text-2xl text-center">Contact Me</h2>
+    {{-- TODO: ADD A THANK YOU/CONFERMATION PAGE --}}
     <form name="contact" class="flex flex-col w-100" method="POST" netlify-honeypot="bot-field" netlify>
       <div class="hidden">
         <label>Don't fill this out if you're human: <input name="bot-field"></label>
