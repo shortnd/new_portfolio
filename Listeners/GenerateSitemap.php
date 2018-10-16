@@ -1,4 +1,6 @@
-<?php namespace App\Listeners;
+<?php
+
+namespace App\Listeners;
 
 use TightenCo\Jigsaw\Jigsaw;
 use samdark\sitemap\Sitemap;
