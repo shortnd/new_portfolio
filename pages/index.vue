@@ -1,24 +1,13 @@
 <template>
   <section class="container">
-    <div>
-      <h1 class="title">
-        Collin O'Connell
-      </h1>
-      <h2 class="subtitle">
-        Site Currently Under Construction
-      </h2>
-      <div class="links">
-        <a
-          href="https://github.com/shortnd"
-          target="_blank"
-          class="button--grey">GitHub</a>
-        <nuxt-link to="/contact" class="button--grey">Contact</nuxt-link>
-      </div>
-    </div>
+    <h1>This site has been perminatly moved to <a href="//coconnell.me" class="text-green">coconnell.me</a></h1>
   </section>
 </template>
 
 <script>
+setTimeout(() => {
+  window.location.replace('https://coconnell.me')
+}, 10000);
 export default {
 
 }
