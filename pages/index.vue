@@ -7,7 +7,7 @@
 <script>
 setTimeout(() => {
   window.location.replace('https://coconnell.me')
-}, 10000);
+}, 5000);
 export default {
 
 }
