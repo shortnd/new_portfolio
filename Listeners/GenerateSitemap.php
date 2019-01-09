@@ -2,32 +2,42 @@
 
 namespace App\Listeners;
 
-use TightenCo\Jigsaw\Jigsaw;
 use samdark\sitemap\Sitemap;
+use TightenCo\Jigsaw\Jigsaw;
 
 class GenerateSitemap
 {
+    protected $exclude = [
+        '/assets/*',
+        '*/favicon.ico',
+        '*/404',
+        '/admin'
+    ];
+
     public function handle(Jigsaw $jigsaw)
     {
         $baseUrl = $jigsaw->getConfig('baseUrl');
+
+        if (! $baseUrl) {
+            echo("\nTo generate a sitemap.xml file, please specify a 'baseUrl' in config.php.\n\n");
+
+            return;
+        }
+
         $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
 
-        collect($jigsaw->getOutputPaths())->each(function ($path) use ($baseUrl, $sitemap) {
-            if (!$this->isAsset($path) && !$this->isAdmin($path)) {
-                $sitemap->addItem($baseUrl . $path, time(), Sitemap::DAILY);
-            }
+        collect($jigsaw->getOutputPaths())
+            ->reject(function ($path) {
+                return $this->isExcluded($path);
+            })->each(function ($path) use ($baseUrl, $sitemap) {
+                $sitemap->addItem(rtrim($baseUrl, '/') . $path, time(), Sitemap::DAILY);
         });
 
         $sitemap->write();
     }
 
-    public function isAsset($path)
+    public function isExcluded($path)
     {
-        return starts_with($path, '/assets');
-    }
-
-    public function isAdmin($path)
-    {
-        return strpos($path, 'admin') !== false;
+        return str_is($this->exclude, $path);
     }
 }

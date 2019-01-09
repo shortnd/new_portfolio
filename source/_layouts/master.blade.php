@@ -7,7 +7,12 @@
         <title>
             coconnell.me
         </title>
-        <meta name="description" content="Collin O'Connell Full Stack Developer focusing on Laravel, Vue, Bootstrap, Tailwindcss, Accesibility and SEO.">
+        <meta name="description" content="{{ $page->meta_description or $page->siteDescription }}">
+
+        <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ $page->getUrl() }}"/>
+        <meta property="og:description" content="{{ $page->siteDescription }}" />
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
@@ -20,6 +25,7 @@
             </div>
         </div>
         @include('_partials.footer')
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
         <script>
             if (window.netlifyIdentity) {
               window.netlifyIdentity.on("init", user => {
