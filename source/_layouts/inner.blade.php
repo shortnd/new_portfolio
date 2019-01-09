@@ -36,8 +36,7 @@
         </main>
     </div>
     @include('_partials.footer')
+    <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    @include('_partials.ada')
 </body>
-
-<script src="{{ mix('js/main.js', 'assets/build') }}"></script>
-
 </html>
