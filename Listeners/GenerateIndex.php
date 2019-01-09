@@ -9,6 +9,7 @@ class GenerateIndex
   public function handle(Jigsaw $jigsaw)
   {
     $file = $jigsaw->getDestinationPath() . '/index.json';
+    $allDate = null;
     $blogData = collect($jigsaw->getCollection('blog')->map(function ($page) use ($jigsaw) {
           return [
               'title' => $page->title,
@@ -16,8 +17,6 @@ class GenerateIndex
               'snippet' => $page->excerpt(),
           ];
       }))->values();
-
-      file_put_contents($file, json_encode($blogData));
       
       $projectData = collect($jigsaw->getCollection('projects')->map(function ($page) use ($jigsaw) {
           return [
@@ -26,8 +25,9 @@ class GenerateIndex
               'snippet' => $page->excerpt(),
             ];
         })->values());
-        
-        file_put_contents($file, json_encode($projectData));
+
+        $allData = $blogData->merge($projectData);
+        file_put_contents($file, json_encode($allData));
       
   }
 }

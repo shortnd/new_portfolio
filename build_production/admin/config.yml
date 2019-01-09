@@ -1,0 +1,52 @@
+backend:
+  name: git-gateway
+  branch: jigsaw
+
+media_folder: "source/assets/images"
+public_folder: "assets/images"
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    delete: false
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "source/about.md"
+        fields:
+          - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "text"}
+          - {label: "Section", name: "section", widget: "hidden", defaut: "body"}
+          - {label: "Body", name: "body", widget: "markdown", buttons: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image']}
+
+  - label: "Blog"
+    name: "blog"
+    folder: "source/_blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
+      - {label: "Section", name: "section", widget: "hidden", default: "body"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "text"}
+      - {label: "Small Description", name: "small_description", widget: "text"}
+      - {label: "Date", name: "date", widget: "date", format: "MM DD YY"}
+      - {label: "Author", name: "author", widget: "string", default: "Collin O'Connell"}
+      - {label: "Post Body", name: "body", widget: "markdown", buttons: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image']}
+
+  - label: "Projects"
+    name: "projects"
+    folder: "source/_projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Extends", name: "extends", widget: "hidden", default: "_layouts.inner"}
+      - {label: "Section", name: "section", widget: "hidden", default: "body"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Small Description", name: "small_description", widget: "text"}
+      - {label: "Progress", name: "progress", widget: "select", options: ["in-progress", "upcoming", "finished"]}
+      - {label: "Body", name: "body", widget: "markdown", button: ['bold', 'italic', 'code', 'link', 'heading-two', 'quote', 'code-block', 'bulleted-list', 'numbered-list', 'image']}
+
+    
