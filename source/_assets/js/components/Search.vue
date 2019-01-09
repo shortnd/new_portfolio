@@ -91,7 +91,6 @@ export default {
     },
     created() {
         axios('/index.json').then(response => {
-          console.log(response.data)
             this.fuse = new fuse(response.data, {
                 minMatchCharLength: 6,
                 keys: ['title', 'snippet', 'link'],

@@ -8,7 +8,7 @@ class GenerateIndex
 {
   public function handle(Jigsaw $jigsaw)
   {
-    $file = $jigsaw->getDestinationPath() . '/index.js';
+    $file = $jigsaw->getDestinationPath() . '/index.json';
     $blogData = collect($jigsaw->getCollection('blog')->map(function ($page) use ($jigsaw) {
           return [
               'title' => $page->title,
