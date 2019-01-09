@@ -13,6 +13,15 @@
         @endif
     </title>
     <meta name="description" content="@yield('page-description', '')">
+    @if ($page->production)
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132063701-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-132063701-1');
+        </script>
+    @endif
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 

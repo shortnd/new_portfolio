@@ -15,6 +15,18 @@
         <meta property="og:description" content="{{ $page->siteDescription }}" />
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+        @if ($page->production)
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132063701-1"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-132063701-1');
+            </script>
+
+        @endif
     </head>
     <body class="flex flex-col h-full">
         <div id="body" class="flex-1">
