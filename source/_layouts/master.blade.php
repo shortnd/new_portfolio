@@ -25,7 +25,6 @@
 
             gtag('config', 'UA-132063701-1');
             </script>
-
         @endif
     </head>
     <body class="flex flex-col h-full">
