@@ -17,7 +17,7 @@ class GenerateIndex
           ];
       }))->values();
 
-      file_put_contents($file, json_encode($blogData), FILE_APPEND);
+      file_put_contents($file, json_encode($blogData));
       
       $projectData = collect($jigsaw->getCollection('projects')->map(function ($page) use ($jigsaw) {
           return [
@@ -27,7 +27,7 @@ class GenerateIndex
             ];
         })->values());
         
-        file_put_contents($file, json_encode($projectData), FILE_APPEND);
+        file_put_contents($file, json_encode($projectData));
       
   }
 }
