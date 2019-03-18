@@ -31,9 +31,7 @@
                             v-for="(result, index) in results"
                             class="bg-white hover:bg-blue-lightest border-b border-blue-light text-xl cursor-pointer p-4"
                             :class="{ 'rounded-b-lg' : (index === results.length - 1) }"
-                            :href="result.link"
                             :title="result.title"
-                            :key="result.link"
                             @mousedown.prevent
                         >
                             {{ result.title }}
@@ -90,12 +88,23 @@ export default {
         },
     },
     created() {
-        axios('/index.json').then(response => {
-            this.fuse = new fuse(response.data, {
-                minMatchCharLength: 6,
-                keys: ['title', 'snippet', 'link'],
-            });
-        });
+        // axios('/index.json').then(response => {
+        //     this.fuse = new fuse(response.data, {
+        //         minMatchCharLength: 6,
+        //         keys: ['title', 'snippet', 'link'],
+        //     });
+        // });
+        // axios('https://blog.test/api/posts')
+        //     .then(res => {
+        //         console.log(res.data)
+        //         this.fuse = new fuse(res.data, {
+        //             minMatchCharLength: 6,
+        //             keys: ['title', 'body']
+        //         })
+        //     })
+        fetch('https://blog.test/api/posts')
+            .then(res => res.json())
+            .then(res => console.log(res))
     },
 };
 </script>
