@@ -48,6 +48,6 @@
               });
             }
           </script>
-          @include('_partials.ada')
+          {{-- @include('_partials.ada') --}}
     </body>
 </html>
