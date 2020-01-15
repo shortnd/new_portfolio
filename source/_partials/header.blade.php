@@ -1,24 +1,17 @@
 <a href="#main" id="skip" class="no-underline shadow-lg rounded text-gold bg-rouge fixed px-2 py-4" tabindex="0">SKIP TO CONTENT</a>
-<header class="bg-black text-white sticky z-50">
+<header class="bg-gray-900 text-white sticky z-50">
   <div class="bg-rouge h-1"></div>
-  <nav class="container px-2 py-4 flex clearfix mx-auto">
-    <a class="text-left text-2xl text-white no-underline sm:mb-4 sm:block md:inline-block hover:text-gold focus:text-gold" href="/">coconnell.com</a>
-    <div id="vue-search" class="flex flex-1">
-      <search></search>
-      <ul class="md:float-right list-reset sm:float-none">
-        <li class="sm:block md:inline-block">
-          <a class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 border-b border-rouge md:border-none sm:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold" href="/about">About</a>
-        </li>
-        <li class="sm:block md:inline-block">
-          <a class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 border-b border-rouge md:border-none sm:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold" href="/projects">Projects</a>
-        </li>
-        <li class="sm:block md:inline-block">
-          <a href="/blog" class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2 border-b border-rouge md:border-none sm:border-b sm:border-rouge sm:hover:border-gold sm:focus:border-gold">Blog</a>
-        </li>
-        <li class="sm:block md:inline-block">
-          <a href="/contact" class="block text-white no-underline md:px-2 uppercase hover:text-gold focus:text-gold sm:px-0 py-2">Contact</a>
-        </li>
-      </ul>
+  <div class="container h-full flex items-center justify-between leading-tight sm:leading-loose mx-auto px-3 sm:px-12">
+    <h1 class="font-heading text-5xl text-gold tracking-wide" >coconnell.com</h1>
+    <div class="h-full w-24 sm:w-auto flex flex-no-shrink flex-wrap sm:flex-no-wrap">
+      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" class="fill-current text-white fab fa-linkedin text-2xl no-underline p-1 rounded">
+      </a>
+      <a href="http://twitter.com" target="_blank" rel="noopener noreferrer" class="text-white fab fa-twitter text-2xl no-underline p-1 rounded bg-green">
+      </a>
+      <a href="http://github.com/shortnd" target="_blank" rel="noopener noreferrer" class="fill-current text-white fab fa-github text-2xl no-underline p-1 rounded bg-green">
+      </a>
+      <a href="mailto:ococncol@gmail.com" class="fill-current text-white fa fa-envelope text-2xl no-underline p-1 rounded bg-green">
+      </a>
     </div>
-  </nav>
+  </div>
 </header>

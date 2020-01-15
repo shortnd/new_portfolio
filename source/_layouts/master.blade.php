@@ -13,6 +13,7 @@
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ $page->getUrl() }}"/>
         <meta property="og:description" content="{{ $page->siteDescription }}" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
@@ -31,9 +32,7 @@
         <div id="body" class="flex-1">
             @include('_partials.header')
             @include('_partials.hero')
-            <div class="container mx-auto @foreach($page->classes as $class) {{$class}}@endforeach">
                 @yield('body')
-            </div>
         </div>
         @include('_partials.footer')
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
@@ -48,6 +47,5 @@
               });
             }
           </script>
-          {{-- @include('_partials.ada') --}}
     </body>
 </html>
