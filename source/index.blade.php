@@ -157,19 +157,24 @@
         {{-- md:w-3/4 md:mr-8  --}}
         <div class="mb-8 sm:mb-0">
           <p>
-            Currently I'm a Web Developer at <a href="https://revize.com" target="_blank" rel="noopener noreferrer"
-              title="Revize Goverment Websites">revize</a>. I spend most of my days making websites for different
-            Government Municipalities and other businesses. Most of my most recent experience comes from <a href="#"
-              target="_blank" rel="noopener noreferrer" title="View Hooligan Hymnal on Github">Hooligan Hymnal</a> an
+            Currently I'm a Web Developer at <a href="https://revize.com" class="text-rouge" target="_blank"
+              rel="noopener noreferrer" title="Revize Goverment Websites">revize</a>. I spend most of my days making
+            websites for different
+            Government Municipalities and other businesses. Most of my most recent experience comes from <a
+              class="text-rouge" href="https://github.com/Chattahooligans" target="_blank" rel="noopener noreferrer"
+              title="View Hooligan Hymnal on Github">Hooligan Hymnal</a> an
             open source solution for independent
-            supporter groups. I got into this project because of my love for <a href="#" target="_blank"
-              rel="noopener noreferrer" title="Detroit City Football Club">DCFC</a> and being part of the <a href="#"
-              target="_blank" rel="noopener noreferrer">Norther Guard</a>. This projects uses Express for the Admin
+            supporter groups. I got into this project because of my love for <a href="https://www.detcityfc.com/"
+              target="_blank" rel="noopener noreferrer" title="Detroit City Football Club" class="text-rouge">DCFC</a>
+            and being part of
+            the <a href="https://noonelikes.us" target="_blank" rel="noopener noreferrer" class="text-rouge">Norther
+              Guard</a>. This projects uses Express for the Admin
             Server, and a React Native Application for users to see different songs, players and announcements.
           </p>
           <p class="mt-3">
             When not programming I enjoy relaxing with my family, reading, watching talks, watching soccer, and going to
-            watch <a href="#" target="_blank" rel="noopener noreferrer" title="Detroit City Football Club">DCFC</a> in
+            watch <a href="https://www.detcityfc.com/" target="_blank" rel="noopener noreferrer"
+              title="Detroit City Football Club" class="text-rouge">DCFC</a> in
             Hamtramck or at the Clubhouse.
           </p>
         </div>
