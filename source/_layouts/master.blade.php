@@ -24,15 +24,18 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132063701-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'UA-132063701-1');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132063701-1');
   </script>
   @endif
 </head>
 
-<body class="flex flex-col h-full">
+<body class="flex flex-col h-full bg-gray-100">
   <div id="body" class="flex-1 font-sans">
     @include('_partials.header')
     @include('_partials.hero')
@@ -42,14 +45,14 @@
   <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
   <script>
     if (window.netlifyIdentity) {
-              window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                  window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                  });
-                }
-              });
-            }
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
   </script>
 </body>
 

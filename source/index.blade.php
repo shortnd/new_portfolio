@@ -3,7 +3,7 @@
 @section('body')
 <main id="main" class="mt-16 md:w-4/5 container mx-auto text-grey-darkest sm:w-full px-2">
   <section class="container mx-auto mb-8 -mt-24 px-3 sm:px-6 md:px-12 xl:px-32">
-    <div class="bg-gray-100 shadow-md text-xl p-6 sm:p-8 rounded">
+    <div class="bg-white shadow-md text-xl p-6 sm:p-8 rounded">
       <p>
         I'm a Junior Full-Stack Developer living in Detroit, MI who loves problem-solving, learning & sharing knowledge,
         and effective communication.
@@ -14,9 +14,12 @@
     <div id="work" class="py-10">
       <h2 class="text-4xl tracking-wide mb-6 text-rouge font-marker">My Work</h2>
       <section class="sm:flex sm:flex-wrap mx-1 sm:mx-6">
-        <article class="w-full sm:flex bg-white shadow mb-6 p-3 sm:p-6">
-          <a href="#" target="_blank" rel="noopener noreferrer" title="Hooligan Hymnal" class="border border-gray-300">
-            Hooligan Hymnal
+        <article class="w-full sm:flex bg-white shadow mb-6 p-3 sm:p-6 border-b border-rouge">
+          <a href="https://github.com/Chattahooligans" target="_blank" rel="noopener noreferrer" title="Hooligan Hymnal"
+            class="border w-1/3">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaSX7jZkxLnxbe1i923fdE0i6zNvl_8EWlm9E2s4sUVx4mjbAE"
+              alt="Hooligan Hymnal Megaphone Logo" />
           </a>
           <div class="sm:w-3/4 sm:ml-6 mt-6 sm:mt-0">
             <h3 class="flex mb-3">
@@ -32,9 +35,11 @@
             </p>
           </div>
         </article>
-        <article class="w-full sm:flex bg-white shadow mb-6 p-3 sm:p-6">
-          <a href="#" target="_blank" rel="noopener noreferrer" title="School Latchkey" class="border border-gray-300">
-            School Latchkey
+        <article class="w-full sm:flex bg-white shadow mb-6 p-3 sm:p-6 border-b border-gold">
+          <a href="https://github.com/shortnd/schoollatchkey" target="_blank" rel="noopener noreferrer"
+            title="School Latchkey" class="border w-1/3">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="Github logo for School Latchkey" />
           </a>
           <div class="sm:w-3/4 sm:ml-6 mt-6 sm:mt-0">
             <h3 class="flex mb-3">
@@ -44,13 +49,18 @@
               </a>
             </h3>
             <p>
-              Info about School Latchkey...
+              School Latchkey is a <a href="https://laravel.com" target="_blank" rel="noopener noreferrer"
+                title="Laravel">Laravel</a> app. It was created to help keep track of kids time in morning or after
+              school latchkey. It was created to be multitenant so if other schools in the school district wanted to use
+              it they could create there own school with there own users and children in seperate databases.
             </p>
           </div>
         </article>
-        <article class="w-full sm:flex bg-white shadow mb-6 p-3 sm:p-6">
-          <a href="#" target="_blank" rel="noopener noreferrer" title="Laravel Mini-CRM" class="border border-gray-300">
-            Laravel Mini-CRM
+        <article class="w-full sm:flex bg-white shadow mb-6 p-3 sm:p-6 border-b border-rouge">
+          <a href="https://github.com/shortnd/laravel-mini-crm" target="_blank" rel="noopener noreferrer"
+            title="Laravel Mini-CRM" class="border w-1/3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/240px-Laravel.svg.png"
+              alt="Laravel Mini-CRM Logo" />
           </a>
           <div class="sm:w-3/4 sm:ml-6 mt-6 sm:mt-0">
             <h3 class="flex mb-3">
@@ -61,7 +71,11 @@
               </a>
             </h3>
             <p>
-              Info about Laravel Mini-CRM...
+              This project was based off of the article from <a
+                href="https://laraveldaily.com/test-junior-laravel-developer-sample-project/" target="_blank"
+                rel="noopener noreferrer" title="How to Test Junior Laravel Developer Skills: Sample Project">Laravel
+                Daily</a>. It is to show a basic understanding of how to create a CRUD application in Laravel at what he
+              fells is a Junior Level.
             </p>
           </div>
         </article>
@@ -69,6 +83,7 @@
           <summary class="w-full cursor-pointer outline-none sm:text-center py-1">
             See more projects
           </summary>
+          <h4>No Other Projects at this time</h4>
         </details>
       </section>
     </div>
@@ -90,6 +105,7 @@
           <li class="px-2">MongoDB</li>
           <li class="px-2">MySQL & PostgresSQL</li>
           <li class="px-2">Responsive Design</li>
+          <li class="px-2">Accessibility</li>
           <li class="px-2">API Development</li>
           <li class="px-2">Bash</li>
         </ul>
@@ -112,6 +128,7 @@
             <li class="px-2">Bootstrap</li>
             <li class="px-2">Javascript</li>
             <li class="px-2">React Native</li>
+            <li class="px-2">Accessibility</li>
             <li class="px-2">Responsive Design</li>
           </ul>
         </div>
@@ -120,29 +137,40 @@
     <div id="about" class="border-t border-rouge py-10">
       <h2 class="text-4xl tracking-wide mb-6 text-rouge font-marker">About Me</h2>
       <section class="sm:flex sm:ml-6">
-        <div class="sm:w-3/4 sm:ml-6 mt-6 sm:mt-0">
+        {{-- md:w-3/4 md:ml-6 --}}
+        <div class="mt-6 sm:mt-0">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nam quia error voluptates illum libero, velit
-            debitis modi non ullam repellat dolorem, perferendis nemo temporibus soluta iure accusamus quae molestias.
+            I grew up at the time computers were really starting to hit main stream, but didn't fall in love with them
+            until late in high school. My best friend in high school gave me his gaming desktop for a few weeks while he
+            was on vacation. While he was away it broke and I learned how to fix it. He then let me keep the computer
+            and I started rebuilding it on my own. I then slowly learned about HTML/CSS to make some simple websites.
           </p>
           <p class="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quidem laboriosam placeat nisi enim? Fuga
-            illum dolorem dolores dolorum provident, commodi quia vel quaerat tempora ipsa. Consequatur qui architecto
-            hic!
+            I started going to my local community college for web design, but found out that it would take at least
+            three+ years to complete the course how the school had it setup. I heard through some people of coding boot
+            camps and decided to go to General Assembly, in Washington, DC. After that I have been working on side
+            projects until I got my current job.
           </p>
         </div>
       </section>
       <section class="sm:flex sm:ml-6 mt-12">
-        <div class="sm:w-3/4 sm:mr-8 mb-8 sm:mb-0">
+        {{-- md:w-3/4 md:mr-8  --}}
+        <div class="mb-8 sm:mb-0">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam suscipit vitae magni, voluptatibus
-            laudantium officia nihil fugit est expedita debitis sit pariatur tempore soluta ipsum tenetur temporibus
-            quia nesciunt. Atque!
+            Currently I'm a Web Developer at <a href="https://revize.com" target="_blank" rel="noopener noreferrer"
+              title="Revize Goverment Websites">revize</a>. I spend most of my days making websites for different
+            Government Municipalities and other businesses. Most of my most recent experience comes from <a href="#"
+              target="_blank" rel="noopener noreferrer" title="View Hooligan Hymnal on Github">Hooligan Hymnal</a> an
+            open source solution for independent
+            supporter groups. I got into this project because of my love for <a href="#" target="_blank"
+              rel="noopener noreferrer" title="Detroit City Football Club">DCFC</a> and being part of the <a href="#"
+              target="_blank" rel="noopener noreferrer">Norther Guard</a>. This projects uses Express for the Admin
+            Server, and a React Native Application for users to see different songs, players and announcements.
           </p>
           <p class="mt-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nam tempora nemo aperiam facere?
-            Doloremque ad pariatur, cum nihil maxime recusandae, hic qui asperiores minima molestias facilis vero
-            laboriosam dolore.
+            When not programming I enjoy relaxing with my family, reading, watching talks, watching soccer, and going to
+            watch <a href="#" target="_blank" rel="noopener noreferrer" title="Detroit City Football Club">DCFC</a> in
+            Hamtramck or at the Clubhouse.
           </p>
         </div>
       </section>
@@ -151,7 +179,7 @@
       <h2 class="text-4xl tracking-wide mb-6 text-rouge font-marker">Contact</h2>
       <section class="sm:flex sm:flex-wrap mx-1 sm:mx-6">
         <div class="sm:w-1/2 sm:pr-3 pb-3">
-          <a href="#" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/collin-o-connell-40a230132/" target="_blank" rel="noopener noreferrer"
             class="block flex items-center bg-white hover:bg-gray-100 shadow p-3">
             <i class="fab fa-linkedin text-2xl text-icon-linkedin rounded border-gray-300 mr-2 p-1"
               aria-hidden="true"></i>
@@ -159,7 +187,7 @@
           </a>
         </div>
         <div class="sm:w-1/2 pb-3">
-          <a href="#" target="_blank" rel="noopener noreferrer"
+          <a href="https://twitter.com/shortnd667" target="_blank" rel="noopener noreferrer"
             class="block flex items-center bg-white hover:bg-gray-100 shadow p-3">
             <i class="fab fa-twitter text-2xl rounded border-gray-300 mr-2 bg-icon-twitter text-white p-1"
               aria-hidden="true"></i>
@@ -167,14 +195,14 @@
           </a>
         </div>
         <div class="sm:w-1/2 sm:pr-3 pb-3">
-          <a href="#" target="_blank" rel="noopener noreferrer"
+          <a href="https://github.com/shortnd" target="_blank" rel="noopener noreferrer"
             class="block flex items-center bg-white hover:bg-gray-100 shadow p-3">
             <i class="fab fa-github text-2xl rounded bg-gray-900 mr-2 text-white p-1" aria-hidden="true""></i>
             Github
           </a>
         </div>
         <div class=" sm:w-1/2 pb-3">
-              <a href="#" target="_blank" rel="noopener noreferrer"
+              <a href="mailto:ococncol@gmail.com" target="_blank" rel="noopener noreferrer"
                 class="block flex items-center bg-white hover:bg-gray-100 shadow p-3">
                 <i class="fa fa-envelope text-2xl rounded bg-rouge mr-2 text-white p-1" aria-hidden="true"></i>
                 Email

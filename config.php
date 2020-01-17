@@ -1,13 +1,9 @@
 <?php
 
 return [
-    'baseUrl' => 'https://coconnell.me',
+    'baseUrl' => 'https://coconnell.dev',
     'production' => false,
-    'collections' => [
-        'about',
-        'blog',
-        'projects'
-    ],
+    'collections' => [],
     // helpers
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);

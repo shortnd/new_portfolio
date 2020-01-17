@@ -5,13 +5,13 @@
   <div class="container h-full flex items-center justify-between leading-tight sm:leading-loose mx-auto px-3 sm:px-12">
     <h1 class="font-heading text-4xl text-gold tracking-wide font-marker">Collin O.</h1>
     <div class="h-full w-24 sm:w-auto flex flex-no-shrink flex-wrap sm:flex-no-wrap">
-      <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"
+      <a href="https://www.linkedin.com/in/collin-o-connell-40a230132/" target="_blank" rel="noopener noreferrer"
         class="fill-current text-white fab fa-linkedin text-2xl no-underline p-1 rounded bg-icon-linkedin ml-2 mb-2">
       </a>
-      <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"
+      <a href="https://twitter.com/shortnd667" target="_blank" rel="noopener noreferrer"
         class="text-white fab fa-twitter text-2xl no-underline p-1 rounded bg-green bg-icon-twitter ml-2 mb-2">
       </a>
-      <a href="http://github.com/shortnd" target="_blank" rel="noopener noreferrer"
+      <a href="https://github.com/shortnd" target="_blank" rel="noopener noreferrer"
         class="fill-current text-white fab fa-github text-2xl no-underline p-1 rounded bg-green bg-gray-800 ml-2 mb-2">
       </a>
       <a href="mailto:ococncol@gmail.com"
