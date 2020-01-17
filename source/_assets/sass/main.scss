@@ -3,12 +3,18 @@
 @tailwind utilities;
 
 
-  #skip {
-    left: -64rem;
-    top: 4rem;
-    z-index: 10;
-    transition: all .3s ease;
-    &:focus {
-        left: 4rem;
-    }
+#skip {
+  left: -64rem;
+  top: 4rem;
+  z-index: 10;
+  transition: all .3s ease;
+
+  &:focus {
+    left: 4rem;
+  }
+}
+
+a,
+a:visited {
+  @apply text-rouge;
 }
