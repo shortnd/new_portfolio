@@ -1071,6 +1071,18 @@ video {
   background-color: #e8b538;
 }
 
+.bg-icon-linkedin {
+  background-color: #0077b5;
+}
+
+.bg-icon-twitter {
+  background-color: #1da1f2;
+}
+
+.bg-icon-github {
+  background-color: #181717;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1451,6 +1463,18 @@ video {
   background-color: #e8b538;
 }
 
+.hover\:bg-icon-linkedin:hover {
+  background-color: #0077b5;
+}
+
+.hover\:bg-icon-twitter:hover {
+  background-color: #1da1f2;
+}
+
+.hover\:bg-icon-github:hover {
+  background-color: #181717;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1829,6 +1853,18 @@ video {
 
 .focus\:bg-gold:focus {
   background-color: #e8b538;
+}
+
+.focus\:bg-icon-linkedin:focus {
+  background-color: #0077b5;
+}
+
+.focus\:bg-icon-twitter:focus {
+  background-color: #1da1f2;
+}
+
+.focus\:bg-icon-github:focus {
+  background-color: #181717;
 }
 
 .bg-bottom {
@@ -2291,6 +2327,18 @@ video {
   border-color: #e8b538;
 }
 
+.border-icon-linkedin {
+  border-color: #0077b5;
+}
+
+.border-icon-twitter {
+  border-color: #1da1f2;
+}
+
+.border-icon-github {
+  border-color: #181717;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2671,6 +2719,18 @@ video {
   border-color: #e8b538;
 }
 
+.hover\:border-icon-linkedin:hover {
+  border-color: #0077b5;
+}
+
+.hover\:border-icon-twitter:hover {
+  border-color: #1da1f2;
+}
+
+.hover\:border-icon-github:hover {
+  border-color: #181717;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -3049,6 +3109,18 @@ video {
 
 .focus\:border-gold:focus {
   border-color: #e8b538;
+}
+
+.focus\:border-icon-linkedin:focus {
+  border-color: #0077b5;
+}
+
+.focus\:border-icon-twitter:focus {
+  border-color: #1da1f2;
+}
+
+.focus\:border-icon-github:focus {
+  border-color: #181717;
 }
 
 .rounded-none {
@@ -3703,6 +3775,10 @@ video {
 
 .font-mono {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-marker {
+  font-family: Permanent Marker, cursive;
 }
 
 .font-hairline {
@@ -7821,6 +7897,66 @@ video {
   color: #e8b538;
 }
 
+.placeholder-icon-linkedin::-webkit-input-placeholder {
+  color: #0077b5;
+}
+
+.placeholder-icon-linkedin::-moz-placeholder {
+  color: #0077b5;
+}
+
+.placeholder-icon-linkedin:-ms-input-placeholder {
+  color: #0077b5;
+}
+
+.placeholder-icon-linkedin::-ms-input-placeholder {
+  color: #0077b5;
+}
+
+.placeholder-icon-linkedin::placeholder {
+  color: #0077b5;
+}
+
+.placeholder-icon-twitter::-webkit-input-placeholder {
+  color: #1da1f2;
+}
+
+.placeholder-icon-twitter::-moz-placeholder {
+  color: #1da1f2;
+}
+
+.placeholder-icon-twitter:-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.placeholder-icon-twitter::-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.placeholder-icon-twitter::placeholder {
+  color: #1da1f2;
+}
+
+.placeholder-icon-github::-webkit-input-placeholder {
+  color: #181717;
+}
+
+.placeholder-icon-github::-moz-placeholder {
+  color: #181717;
+}
+
+.placeholder-icon-github:-ms-input-placeholder {
+  color: #181717;
+}
+
+.placeholder-icon-github::-ms-input-placeholder {
+  color: #181717;
+}
+
+.placeholder-icon-github::placeholder {
+  color: #181717;
+}
+
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -9721,6 +9857,66 @@ video {
   color: #e8b538;
 }
 
+.focus\:placeholder-icon-linkedin:focus::-webkit-input-placeholder {
+  color: #0077b5;
+}
+
+.focus\:placeholder-icon-linkedin:focus::-moz-placeholder {
+  color: #0077b5;
+}
+
+.focus\:placeholder-icon-linkedin:focus:-ms-input-placeholder {
+  color: #0077b5;
+}
+
+.focus\:placeholder-icon-linkedin:focus::-ms-input-placeholder {
+  color: #0077b5;
+}
+
+.focus\:placeholder-icon-linkedin:focus::placeholder {
+  color: #0077b5;
+}
+
+.focus\:placeholder-icon-twitter:focus::-webkit-input-placeholder {
+  color: #1da1f2;
+}
+
+.focus\:placeholder-icon-twitter:focus::-moz-placeholder {
+  color: #1da1f2;
+}
+
+.focus\:placeholder-icon-twitter:focus:-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.focus\:placeholder-icon-twitter:focus::-ms-input-placeholder {
+  color: #1da1f2;
+}
+
+.focus\:placeholder-icon-twitter:focus::placeholder {
+  color: #1da1f2;
+}
+
+.focus\:placeholder-icon-github:focus::-webkit-input-placeholder {
+  color: #181717;
+}
+
+.focus\:placeholder-icon-github:focus::-moz-placeholder {
+  color: #181717;
+}
+
+.focus\:placeholder-icon-github:focus:-ms-input-placeholder {
+  color: #181717;
+}
+
+.focus\:placeholder-icon-github:focus::-ms-input-placeholder {
+  color: #181717;
+}
+
+.focus\:placeholder-icon-github:focus::placeholder {
+  color: #181717;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -10340,6 +10536,18 @@ video {
   color: #e8b538;
 }
 
+.text-icon-linkedin {
+  color: #0077b5;
+}
+
+.text-icon-twitter {
+  color: #1da1f2;
+}
+
+.text-icon-github {
+  color: #181717;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -10720,6 +10928,18 @@ video {
   color: #e8b538;
 }
 
+.hover\:text-icon-linkedin:hover {
+  color: #0077b5;
+}
+
+.hover\:text-icon-twitter:hover {
+  color: #1da1f2;
+}
+
+.hover\:text-icon-github:hover {
+  color: #181717;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -11098,6 +11318,18 @@ video {
 
 .focus\:text-gold:focus {
   color: #e8b538;
+}
+
+.focus\:text-icon-linkedin:focus {
+  color: #0077b5;
+}
+
+.focus\:text-icon-twitter:focus {
+  color: #1da1f2;
+}
+
+.focus\:text-icon-github:focus {
+  color: #181717;
 }
 
 .text-xs {
@@ -12010,6 +12242,18 @@ video {
     background-color: #e8b538;
   }
 
+  .sm\:bg-icon-linkedin {
+    background-color: #0077b5;
+  }
+
+  .sm\:bg-icon-twitter {
+    background-color: #1da1f2;
+  }
+
+  .sm\:bg-icon-github {
+    background-color: #181717;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -12390,6 +12634,18 @@ video {
     background-color: #e8b538;
   }
 
+  .sm\:hover\:bg-icon-linkedin:hover {
+    background-color: #0077b5;
+  }
+
+  .sm\:hover\:bg-icon-twitter:hover {
+    background-color: #1da1f2;
+  }
+
+  .sm\:hover\:bg-icon-github:hover {
+    background-color: #181717;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -12768,6 +13024,18 @@ video {
 
   .sm\:focus\:bg-gold:focus {
     background-color: #e8b538;
+  }
+
+  .sm\:focus\:bg-icon-linkedin:focus {
+    background-color: #0077b5;
+  }
+
+  .sm\:focus\:bg-icon-twitter:focus {
+    background-color: #1da1f2;
+  }
+
+  .sm\:focus\:bg-icon-github:focus {
+    background-color: #181717;
   }
 
   .sm\:bg-bottom {
@@ -13230,6 +13498,18 @@ video {
     border-color: #e8b538;
   }
 
+  .sm\:border-icon-linkedin {
+    border-color: #0077b5;
+  }
+
+  .sm\:border-icon-twitter {
+    border-color: #1da1f2;
+  }
+
+  .sm\:border-icon-github {
+    border-color: #181717;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -13610,6 +13890,18 @@ video {
     border-color: #e8b538;
   }
 
+  .sm\:hover\:border-icon-linkedin:hover {
+    border-color: #0077b5;
+  }
+
+  .sm\:hover\:border-icon-twitter:hover {
+    border-color: #1da1f2;
+  }
+
+  .sm\:hover\:border-icon-github:hover {
+    border-color: #181717;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -13988,6 +14280,18 @@ video {
 
   .sm\:focus\:border-gold:focus {
     border-color: #e8b538;
+  }
+
+  .sm\:focus\:border-icon-linkedin:focus {
+    border-color: #0077b5;
+  }
+
+  .sm\:focus\:border-icon-twitter:focus {
+    border-color: #1da1f2;
+  }
+
+  .sm\:focus\:border-icon-github:focus {
+    border-color: #181717;
   }
 
   .sm\:rounded-none {
@@ -14642,6 +14946,10 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-marker {
+    font-family: Permanent Marker, cursive;
   }
 
   .sm\:font-hairline {
@@ -18760,6 +19068,66 @@ video {
     color: #e8b538;
   }
 
+  .sm\:placeholder-icon-linkedin::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:placeholder-icon-linkedin::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:placeholder-icon-linkedin:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:placeholder-icon-linkedin::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:placeholder-icon-linkedin::placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:placeholder-icon-twitter::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:placeholder-icon-twitter::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:placeholder-icon-twitter:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:placeholder-icon-twitter::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:placeholder-icon-twitter::placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:placeholder-icon-github::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .sm\:placeholder-icon-github::-moz-placeholder {
+    color: #181717;
+  }
+
+  .sm\:placeholder-icon-github:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .sm\:placeholder-icon-github::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .sm\:placeholder-icon-github::placeholder {
+    color: #181717;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -20660,6 +21028,66 @@ video {
     color: #e8b538;
   }
 
+  .sm\:focus\:placeholder-icon-linkedin:focus::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:focus\:placeholder-icon-linkedin:focus::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:focus\:placeholder-icon-linkedin:focus:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:focus\:placeholder-icon-linkedin:focus::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:focus\:placeholder-icon-linkedin:focus::placeholder {
+    color: #0077b5;
+  }
+
+  .sm\:focus\:placeholder-icon-twitter:focus::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:focus\:placeholder-icon-twitter:focus::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:focus\:placeholder-icon-twitter:focus:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:focus\:placeholder-icon-twitter:focus::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:focus\:placeholder-icon-twitter:focus::placeholder {
+    color: #1da1f2;
+  }
+
+  .sm\:focus\:placeholder-icon-github:focus::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .sm\:focus\:placeholder-icon-github:focus::-moz-placeholder {
+    color: #181717;
+  }
+
+  .sm\:focus\:placeholder-icon-github:focus:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .sm\:focus\:placeholder-icon-github:focus::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .sm\:focus\:placeholder-icon-github:focus::placeholder {
+    color: #181717;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -21279,6 +21707,18 @@ video {
     color: #e8b538;
   }
 
+  .sm\:text-icon-linkedin {
+    color: #0077b5;
+  }
+
+  .sm\:text-icon-twitter {
+    color: #1da1f2;
+  }
+
+  .sm\:text-icon-github {
+    color: #181717;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -21659,6 +22099,18 @@ video {
     color: #e8b538;
   }
 
+  .sm\:hover\:text-icon-linkedin:hover {
+    color: #0077b5;
+  }
+
+  .sm\:hover\:text-icon-twitter:hover {
+    color: #1da1f2;
+  }
+
+  .sm\:hover\:text-icon-github:hover {
+    color: #181717;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -22037,6 +22489,18 @@ video {
 
   .sm\:focus\:text-gold:focus {
     color: #e8b538;
+  }
+
+  .sm\:focus\:text-icon-linkedin:focus {
+    color: #0077b5;
+  }
+
+  .sm\:focus\:text-icon-twitter:focus {
+    color: #1da1f2;
+  }
+
+  .sm\:focus\:text-icon-github:focus {
+    color: #181717;
   }
 
   .sm\:text-xs {
@@ -22938,6 +23402,18 @@ video {
     background-color: #e8b538;
   }
 
+  .md\:bg-icon-linkedin {
+    background-color: #0077b5;
+  }
+
+  .md\:bg-icon-twitter {
+    background-color: #1da1f2;
+  }
+
+  .md\:bg-icon-github {
+    background-color: #181717;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -23318,6 +23794,18 @@ video {
     background-color: #e8b538;
   }
 
+  .md\:hover\:bg-icon-linkedin:hover {
+    background-color: #0077b5;
+  }
+
+  .md\:hover\:bg-icon-twitter:hover {
+    background-color: #1da1f2;
+  }
+
+  .md\:hover\:bg-icon-github:hover {
+    background-color: #181717;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -23696,6 +24184,18 @@ video {
 
   .md\:focus\:bg-gold:focus {
     background-color: #e8b538;
+  }
+
+  .md\:focus\:bg-icon-linkedin:focus {
+    background-color: #0077b5;
+  }
+
+  .md\:focus\:bg-icon-twitter:focus {
+    background-color: #1da1f2;
+  }
+
+  .md\:focus\:bg-icon-github:focus {
+    background-color: #181717;
   }
 
   .md\:bg-bottom {
@@ -24158,6 +24658,18 @@ video {
     border-color: #e8b538;
   }
 
+  .md\:border-icon-linkedin {
+    border-color: #0077b5;
+  }
+
+  .md\:border-icon-twitter {
+    border-color: #1da1f2;
+  }
+
+  .md\:border-icon-github {
+    border-color: #181717;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -24538,6 +25050,18 @@ video {
     border-color: #e8b538;
   }
 
+  .md\:hover\:border-icon-linkedin:hover {
+    border-color: #0077b5;
+  }
+
+  .md\:hover\:border-icon-twitter:hover {
+    border-color: #1da1f2;
+  }
+
+  .md\:hover\:border-icon-github:hover {
+    border-color: #181717;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -24916,6 +25440,18 @@ video {
 
   .md\:focus\:border-gold:focus {
     border-color: #e8b538;
+  }
+
+  .md\:focus\:border-icon-linkedin:focus {
+    border-color: #0077b5;
+  }
+
+  .md\:focus\:border-icon-twitter:focus {
+    border-color: #1da1f2;
+  }
+
+  .md\:focus\:border-icon-github:focus {
+    border-color: #181717;
   }
 
   .md\:rounded-none {
@@ -25570,6 +26106,10 @@ video {
 
   .md\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-marker {
+    font-family: Permanent Marker, cursive;
   }
 
   .md\:font-hairline {
@@ -29688,6 +30228,66 @@ video {
     color: #e8b538;
   }
 
+  .md\:placeholder-icon-linkedin::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:placeholder-icon-linkedin::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:placeholder-icon-linkedin:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:placeholder-icon-linkedin::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:placeholder-icon-linkedin::placeholder {
+    color: #0077b5;
+  }
+
+  .md\:placeholder-icon-twitter::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:placeholder-icon-twitter::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:placeholder-icon-twitter:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:placeholder-icon-twitter::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:placeholder-icon-twitter::placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:placeholder-icon-github::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .md\:placeholder-icon-github::-moz-placeholder {
+    color: #181717;
+  }
+
+  .md\:placeholder-icon-github:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .md\:placeholder-icon-github::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .md\:placeholder-icon-github::placeholder {
+    color: #181717;
+  }
+
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -31588,6 +32188,66 @@ video {
     color: #e8b538;
   }
 
+  .md\:focus\:placeholder-icon-linkedin:focus::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:focus\:placeholder-icon-linkedin:focus::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:focus\:placeholder-icon-linkedin:focus:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:focus\:placeholder-icon-linkedin:focus::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .md\:focus\:placeholder-icon-linkedin:focus::placeholder {
+    color: #0077b5;
+  }
+
+  .md\:focus\:placeholder-icon-twitter:focus::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:focus\:placeholder-icon-twitter:focus::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:focus\:placeholder-icon-twitter:focus:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:focus\:placeholder-icon-twitter:focus::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:focus\:placeholder-icon-twitter:focus::placeholder {
+    color: #1da1f2;
+  }
+
+  .md\:focus\:placeholder-icon-github:focus::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .md\:focus\:placeholder-icon-github:focus::-moz-placeholder {
+    color: #181717;
+  }
+
+  .md\:focus\:placeholder-icon-github:focus:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .md\:focus\:placeholder-icon-github:focus::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .md\:focus\:placeholder-icon-github:focus::placeholder {
+    color: #181717;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -32207,6 +32867,18 @@ video {
     color: #e8b538;
   }
 
+  .md\:text-icon-linkedin {
+    color: #0077b5;
+  }
+
+  .md\:text-icon-twitter {
+    color: #1da1f2;
+  }
+
+  .md\:text-icon-github {
+    color: #181717;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -32587,6 +33259,18 @@ video {
     color: #e8b538;
   }
 
+  .md\:hover\:text-icon-linkedin:hover {
+    color: #0077b5;
+  }
+
+  .md\:hover\:text-icon-twitter:hover {
+    color: #1da1f2;
+  }
+
+  .md\:hover\:text-icon-github:hover {
+    color: #181717;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -32965,6 +33649,18 @@ video {
 
   .md\:focus\:text-gold:focus {
     color: #e8b538;
+  }
+
+  .md\:focus\:text-icon-linkedin:focus {
+    color: #0077b5;
+  }
+
+  .md\:focus\:text-icon-twitter:focus {
+    color: #1da1f2;
+  }
+
+  .md\:focus\:text-icon-github:focus {
+    color: #181717;
   }
 
   .md\:text-xs {
@@ -33866,6 +34562,18 @@ video {
     background-color: #e8b538;
   }
 
+  .lg\:bg-icon-linkedin {
+    background-color: #0077b5;
+  }
+
+  .lg\:bg-icon-twitter {
+    background-color: #1da1f2;
+  }
+
+  .lg\:bg-icon-github {
+    background-color: #181717;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -34246,6 +34954,18 @@ video {
     background-color: #e8b538;
   }
 
+  .lg\:hover\:bg-icon-linkedin:hover {
+    background-color: #0077b5;
+  }
+
+  .lg\:hover\:bg-icon-twitter:hover {
+    background-color: #1da1f2;
+  }
+
+  .lg\:hover\:bg-icon-github:hover {
+    background-color: #181717;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -34624,6 +35344,18 @@ video {
 
   .lg\:focus\:bg-gold:focus {
     background-color: #e8b538;
+  }
+
+  .lg\:focus\:bg-icon-linkedin:focus {
+    background-color: #0077b5;
+  }
+
+  .lg\:focus\:bg-icon-twitter:focus {
+    background-color: #1da1f2;
+  }
+
+  .lg\:focus\:bg-icon-github:focus {
+    background-color: #181717;
   }
 
   .lg\:bg-bottom {
@@ -35086,6 +35818,18 @@ video {
     border-color: #e8b538;
   }
 
+  .lg\:border-icon-linkedin {
+    border-color: #0077b5;
+  }
+
+  .lg\:border-icon-twitter {
+    border-color: #1da1f2;
+  }
+
+  .lg\:border-icon-github {
+    border-color: #181717;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -35466,6 +36210,18 @@ video {
     border-color: #e8b538;
   }
 
+  .lg\:hover\:border-icon-linkedin:hover {
+    border-color: #0077b5;
+  }
+
+  .lg\:hover\:border-icon-twitter:hover {
+    border-color: #1da1f2;
+  }
+
+  .lg\:hover\:border-icon-github:hover {
+    border-color: #181717;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -35844,6 +36600,18 @@ video {
 
   .lg\:focus\:border-gold:focus {
     border-color: #e8b538;
+  }
+
+  .lg\:focus\:border-icon-linkedin:focus {
+    border-color: #0077b5;
+  }
+
+  .lg\:focus\:border-icon-twitter:focus {
+    border-color: #1da1f2;
+  }
+
+  .lg\:focus\:border-icon-github:focus {
+    border-color: #181717;
   }
 
   .lg\:rounded-none {
@@ -36498,6 +37266,10 @@ video {
 
   .lg\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-marker {
+    font-family: Permanent Marker, cursive;
   }
 
   .lg\:font-hairline {
@@ -40616,6 +41388,66 @@ video {
     color: #e8b538;
   }
 
+  .lg\:placeholder-icon-linkedin::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:placeholder-icon-linkedin::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:placeholder-icon-linkedin:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:placeholder-icon-linkedin::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:placeholder-icon-linkedin::placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:placeholder-icon-twitter::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:placeholder-icon-twitter::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:placeholder-icon-twitter:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:placeholder-icon-twitter::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:placeholder-icon-twitter::placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:placeholder-icon-github::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .lg\:placeholder-icon-github::-moz-placeholder {
+    color: #181717;
+  }
+
+  .lg\:placeholder-icon-github:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .lg\:placeholder-icon-github::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .lg\:placeholder-icon-github::placeholder {
+    color: #181717;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -42516,6 +43348,66 @@ video {
     color: #e8b538;
   }
 
+  .lg\:focus\:placeholder-icon-linkedin:focus::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:focus\:placeholder-icon-linkedin:focus::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:focus\:placeholder-icon-linkedin:focus:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:focus\:placeholder-icon-linkedin:focus::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:focus\:placeholder-icon-linkedin:focus::placeholder {
+    color: #0077b5;
+  }
+
+  .lg\:focus\:placeholder-icon-twitter:focus::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:focus\:placeholder-icon-twitter:focus::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:focus\:placeholder-icon-twitter:focus:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:focus\:placeholder-icon-twitter:focus::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:focus\:placeholder-icon-twitter:focus::placeholder {
+    color: #1da1f2;
+  }
+
+  .lg\:focus\:placeholder-icon-github:focus::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .lg\:focus\:placeholder-icon-github:focus::-moz-placeholder {
+    color: #181717;
+  }
+
+  .lg\:focus\:placeholder-icon-github:focus:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .lg\:focus\:placeholder-icon-github:focus::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .lg\:focus\:placeholder-icon-github:focus::placeholder {
+    color: #181717;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -43135,6 +44027,18 @@ video {
     color: #e8b538;
   }
 
+  .lg\:text-icon-linkedin {
+    color: #0077b5;
+  }
+
+  .lg\:text-icon-twitter {
+    color: #1da1f2;
+  }
+
+  .lg\:text-icon-github {
+    color: #181717;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -43515,6 +44419,18 @@ video {
     color: #e8b538;
   }
 
+  .lg\:hover\:text-icon-linkedin:hover {
+    color: #0077b5;
+  }
+
+  .lg\:hover\:text-icon-twitter:hover {
+    color: #1da1f2;
+  }
+
+  .lg\:hover\:text-icon-github:hover {
+    color: #181717;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -43893,6 +44809,18 @@ video {
 
   .lg\:focus\:text-gold:focus {
     color: #e8b538;
+  }
+
+  .lg\:focus\:text-icon-linkedin:focus {
+    color: #0077b5;
+  }
+
+  .lg\:focus\:text-icon-twitter:focus {
+    color: #1da1f2;
+  }
+
+  .lg\:focus\:text-icon-github:focus {
+    color: #181717;
   }
 
   .lg\:text-xs {
@@ -44794,6 +45722,18 @@ video {
     background-color: #e8b538;
   }
 
+  .xl\:bg-icon-linkedin {
+    background-color: #0077b5;
+  }
+
+  .xl\:bg-icon-twitter {
+    background-color: #1da1f2;
+  }
+
+  .xl\:bg-icon-github {
+    background-color: #181717;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -45174,6 +46114,18 @@ video {
     background-color: #e8b538;
   }
 
+  .xl\:hover\:bg-icon-linkedin:hover {
+    background-color: #0077b5;
+  }
+
+  .xl\:hover\:bg-icon-twitter:hover {
+    background-color: #1da1f2;
+  }
+
+  .xl\:hover\:bg-icon-github:hover {
+    background-color: #181717;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -45552,6 +46504,18 @@ video {
 
   .xl\:focus\:bg-gold:focus {
     background-color: #e8b538;
+  }
+
+  .xl\:focus\:bg-icon-linkedin:focus {
+    background-color: #0077b5;
+  }
+
+  .xl\:focus\:bg-icon-twitter:focus {
+    background-color: #1da1f2;
+  }
+
+  .xl\:focus\:bg-icon-github:focus {
+    background-color: #181717;
   }
 
   .xl\:bg-bottom {
@@ -46014,6 +46978,18 @@ video {
     border-color: #e8b538;
   }
 
+  .xl\:border-icon-linkedin {
+    border-color: #0077b5;
+  }
+
+  .xl\:border-icon-twitter {
+    border-color: #1da1f2;
+  }
+
+  .xl\:border-icon-github {
+    border-color: #181717;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -46394,6 +47370,18 @@ video {
     border-color: #e8b538;
   }
 
+  .xl\:hover\:border-icon-linkedin:hover {
+    border-color: #0077b5;
+  }
+
+  .xl\:hover\:border-icon-twitter:hover {
+    border-color: #1da1f2;
+  }
+
+  .xl\:hover\:border-icon-github:hover {
+    border-color: #181717;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -46772,6 +47760,18 @@ video {
 
   .xl\:focus\:border-gold:focus {
     border-color: #e8b538;
+  }
+
+  .xl\:focus\:border-icon-linkedin:focus {
+    border-color: #0077b5;
+  }
+
+  .xl\:focus\:border-icon-twitter:focus {
+    border-color: #1da1f2;
+  }
+
+  .xl\:focus\:border-icon-github:focus {
+    border-color: #181717;
   }
 
   .xl\:rounded-none {
@@ -47426,6 +48426,10 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-marker {
+    font-family: Permanent Marker, cursive;
   }
 
   .xl\:font-hairline {
@@ -51544,6 +52548,66 @@ video {
     color: #e8b538;
   }
 
+  .xl\:placeholder-icon-linkedin::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:placeholder-icon-linkedin::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:placeholder-icon-linkedin:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:placeholder-icon-linkedin::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:placeholder-icon-linkedin::placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:placeholder-icon-twitter::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:placeholder-icon-twitter::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:placeholder-icon-twitter:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:placeholder-icon-twitter::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:placeholder-icon-twitter::placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:placeholder-icon-github::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .xl\:placeholder-icon-github::-moz-placeholder {
+    color: #181717;
+  }
+
+  .xl\:placeholder-icon-github:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .xl\:placeholder-icon-github::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .xl\:placeholder-icon-github::placeholder {
+    color: #181717;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -53444,6 +54508,66 @@ video {
     color: #e8b538;
   }
 
+  .xl\:focus\:placeholder-icon-linkedin:focus::-webkit-input-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:focus\:placeholder-icon-linkedin:focus::-moz-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:focus\:placeholder-icon-linkedin:focus:-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:focus\:placeholder-icon-linkedin:focus::-ms-input-placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:focus\:placeholder-icon-linkedin:focus::placeholder {
+    color: #0077b5;
+  }
+
+  .xl\:focus\:placeholder-icon-twitter:focus::-webkit-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:focus\:placeholder-icon-twitter:focus::-moz-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:focus\:placeholder-icon-twitter:focus:-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:focus\:placeholder-icon-twitter:focus::-ms-input-placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:focus\:placeholder-icon-twitter:focus::placeholder {
+    color: #1da1f2;
+  }
+
+  .xl\:focus\:placeholder-icon-github:focus::-webkit-input-placeholder {
+    color: #181717;
+  }
+
+  .xl\:focus\:placeholder-icon-github:focus::-moz-placeholder {
+    color: #181717;
+  }
+
+  .xl\:focus\:placeholder-icon-github:focus:-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .xl\:focus\:placeholder-icon-github:focus::-ms-input-placeholder {
+    color: #181717;
+  }
+
+  .xl\:focus\:placeholder-icon-github:focus::placeholder {
+    color: #181717;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -54063,6 +55187,18 @@ video {
     color: #e8b538;
   }
 
+  .xl\:text-icon-linkedin {
+    color: #0077b5;
+  }
+
+  .xl\:text-icon-twitter {
+    color: #1da1f2;
+  }
+
+  .xl\:text-icon-github {
+    color: #181717;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -54443,6 +55579,18 @@ video {
     color: #e8b538;
   }
 
+  .xl\:hover\:text-icon-linkedin:hover {
+    color: #0077b5;
+  }
+
+  .xl\:hover\:text-icon-twitter:hover {
+    color: #1da1f2;
+  }
+
+  .xl\:hover\:text-icon-github:hover {
+    color: #181717;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -54821,6 +55969,18 @@ video {
 
   .xl\:focus\:text-gold:focus {
     color: #e8b538;
+  }
+
+  .xl\:focus\:text-icon-linkedin:focus {
+    color: #0077b5;
+  }
+
+  .xl\:focus\:text-icon-twitter:focus {
+    color: #1da1f2;
+  }
+
+  .xl\:focus\:text-icon-github:focus {
+    color: #181717;
   }
 
   .xl\:text-xs {
