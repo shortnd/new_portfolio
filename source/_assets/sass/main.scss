@@ -18,3 +18,8 @@ a,
 a:visited {
   @apply text-rouge;
 }
+
+header a,
+header a:visited {
+  @apply white;
+}
