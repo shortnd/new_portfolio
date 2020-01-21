@@ -19,6 +19,10 @@ a:visited {
   @apply text-rouge;
 }
 
+a:hover {
+  @apply font-semibold;
+}
+
 header a,
 header a:visited {
   @apply text-white;
