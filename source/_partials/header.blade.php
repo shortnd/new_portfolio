@@ -6,16 +6,20 @@
     <h1 class="font-heading text-4xl text-gold tracking-wide font-marker">Collin O.</h1>
     <div class="h-full w-24 sm:w-auto flex flex-no-shrink flex-wrap sm:flex-no-wrap">
       <a href="https://www.linkedin.com/in/collin-o-connell-40a230132/" target="_blank" rel="noopener noreferrer"
-        class="text-white fab fa-linkedin text-2xl no-underline p-1 rounded bg-icon-linkedin ml-2 mb-2">
+        class="text-white fab fa-linkedin text-2xl no-underline p-1 rounded bg-icon-linkedin ml-2 mb-2"
+        aria-label="My Linkedin">
       </a>
       <a href="https://twitter.com/shortnd667" target="_blank" rel="noopener noreferrer"
-        class="text-white fab fa-twitter text-2xl no-underline p-1 rounded bg-green bg-icon-twitter ml-2 mb-2">
+        class="text-white fab fa-twitter text-2xl no-underline p-1 rounded bg-green bg-icon-twitter ml-2 mb-2"
+        aria-label="My twitter">
       </a>
       <a href="https://github.com/shortnd" target="_blank" rel="noopener noreferrer"
-        class="text-white fab fa-github text-2xl no-underline p-1 rounded bg-green bg-gray-800 ml-2 mb-2">
+        class="text-white fab fa-github text-2xl no-underline p-1 rounded bg-green bg-gray-800 ml-2 mb-2"
+        aria-label="My Github">
       </a>
       <a href="mailto:ococncol@gmail.com"
-        class="text-white fa fa-envelope text-2xl no-underline p-1 rounded bg-green bg-gold ml-2 mb-2">
+        class="text-white fa fa-envelope text-2xl no-underline p-1 rounded bg-green bg-gold ml-2 mb-2"
+        aria-label="Email Me">
       </a>
     </div>
   </div>
